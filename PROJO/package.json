@@ -1,0 +1,18 @@
+<form method="POST" action="calculator.php">
+    <input type="number" name="number1" placeholder="First Number" required>
+    <input type="number" name="number2" placeholder="Second Number (if needed)">
+    
+    <select name="operation">
+        <option value="add">Addition</option>
+        <option value="subtract">Subtraction</option>
+        <option value="multiply">Multiplication</option>
+        <option value="divide">Division</option>
+        <option value="exponentiate">Exponentiation</option>
+        <option value="percentage">Percentage</option>
+        <option value="sqrt">Square Root</option>
+        <option value="log">Logarithm</option>
+    </select>
+    
+    <button type="submit">Calculate</button>
+</form>
+
